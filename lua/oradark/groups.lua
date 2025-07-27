@@ -8,6 +8,7 @@ M.setup = function ()
         Changed = { fg = colors.orange },
         DiagnosticInfo = { fg = colors.orange },
         LineNr = { fg = colors.dark },
+        ModeMsg = { fg = colors.orange },
 
         Comment = { fg = colors.dark, italic = true },
         String = { fg = colors.orange },
@@ -30,7 +31,7 @@ M.setup = function ()
         Question = { fg = colors.orange },
 
         ["@variable"] = { fg = colors.light_g },
-        ["@markup.heading.1.markdown"] = { fg = colors.orange },
+        ["@markup.heading"] = { fg = colors.orange },
 
         Oilfile = { fg = colors.light },
         OilfileHidden = { fg = colors.light },
