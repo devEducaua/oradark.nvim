@@ -39,7 +39,18 @@ M.setup = function ()
 
         -- Treesitter
         ["@variable"] = { fg = colors.light_g },
+
+        -- C
+        ["@variable.c"] = { fg = colors.grey },
+        ["@lsp.type.variable.c"] = { fg = colors.grey },
+
+        -- Make
+        ["@string.special.symbol.make"] = { fg = colors.orange },
+
+        -- Typescript
         ["@type.builtin.typescript"] = { fg = colors.light },
+
+        -- Markdown
         ["@markup.heading"] = { fg = colors.orange },
         ["@markup.list.checked.markdown"] = { fg = colors.orange },
 
