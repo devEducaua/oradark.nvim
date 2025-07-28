@@ -1,7 +1,8 @@
 # Oradark.nvim
 Simple plugin for nvim, with a little bit of orange.
 
-Basic preview:
+**Basic preview**:
+
 ![oradark.nvim example](asset/oradark.png)
 
 > [!WARNING]
