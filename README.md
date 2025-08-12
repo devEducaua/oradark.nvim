@@ -12,9 +12,8 @@ lazy:
 ```lua
 {
     "devEducaua/oradark.nvim",
-    config = function()
-        require("oradark").setup()
-    end
+    lazy = false,
+    priority = 1000
 }
 ```
 
