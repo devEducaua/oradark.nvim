@@ -31,7 +31,7 @@ return {
     Type = { fg = colors.orange },
     Constant = { fg = colors.light },
     Statement = { fg = colors.light },
-    MatchParen = { fg = colors.light },
+    MatchParen = { bg = colors.grey },
 
     -- Lsp
     DiagnosticError = { sp = colors.red },
