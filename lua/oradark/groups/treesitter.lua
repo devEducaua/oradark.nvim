@@ -6,7 +6,7 @@ return {
 
     -- Fish
     ["@variable.fish"] = { fg = colors.light_g },
-    ["@function.builtin.fish"] = { fg = colors.orange },
+    ["@function.builtin.fish"] = { fg = colors.dark },
 
     -- C
     ["@variable.c"] = { fg = colors.grey },
@@ -17,6 +17,10 @@ return {
 
     -- Typescript
     ["@type.builtin.typescript"] = { fg = colors.light },
+
+    ["@tag.html"] = { fg = colors.grey },
+    ["@tag.delimiter.html"] = { fg = colors.grey },
+    ["@constant.html"] = { fg = colors.grey },
 
     -- Markdown
     ["@markup.heading"] = { fg = colors.orange },
