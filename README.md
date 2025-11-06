@@ -1,19 +1,13 @@
 # Oradark.nvim
-Simple colorscheme for nvim, with a little bit of orange.
+Simple dark colorscheme for nvim, with a little bit of orange.
 
-![oradark.nvim example](asset/oradark.png)
+![oradark.nvim example](assets/oradark.png)
 
 ## Installation
-> [!WARNING]
-> This plugin is still in development
-> Some of the integrations are only in the surface
-
-lazy: 
+pckr: 
 ```lua
-{
+require("pckr").add{
     "devEducaua/oradark.nvim",
-    lazy = false,
-    priority = 1000
 }
 ```
 
