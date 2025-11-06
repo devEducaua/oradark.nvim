@@ -23,6 +23,7 @@ local groups = {
     Visual = { bg = colors.light_g, fg = colors.bg },
     Directory = { fg = colors.grey },
     Cursor = { bg = colors.fg, fg = colors.light_g },
+    CurSearch = { bg = colors.dark, fg = colors.light_g },
     Pmenu = { bg = colors.bg, fg = colors.light_g },
     PmenuSel = { bg = colors.dark, fg = colors.bg },
     Whitespace = { fg = colors.non_text },
