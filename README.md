@@ -2,6 +2,7 @@
 Simple dark colorscheme for nvim, with a little bit of orange.
 
 ![oradark.nvim example](assets/oradark.png)
+![oradark.nvim example](assets/lua-lsp.png)
 
 ## Installation
 pckr: 
