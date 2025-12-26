@@ -1,3 +1,4 @@
+# fish theme
 set -l fg 777777
 set -l orange d17e25
 set -l red f52a65
